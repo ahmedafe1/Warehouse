@@ -49,7 +49,7 @@ const LoginForm: React.FC = () => {
 
             <div>
                 <label htmlFor="username" className="block text-sm font-medium text-gray-700">
-                    Email address or Username
+                    Username
                 </label>
                 <div className="mt-1">
                     <input

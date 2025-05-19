@@ -40,17 +40,11 @@ const RegisterForm: React.FC = () => {
         setSubmitting(true);
         try {
             const response = await registerUser(userData);
-            // Assuming response is { success: true, message: "..." } or similar
-            if (response && response.success) {
-                setSuccessMessage(response.message || "Registration successful! Please log in.");
-                // Optionally redirect to login page after a short delay or let user click a link
-                setTimeout(() => {
-                     router.push('/auth/login');
-                }, 2000); // 2-second delay
-            } else {
-                setError(response.message || "An unexpected error occurred during registration.")
-            }
-
+            setSuccessMessage("User registered successfully!");
+            // Redirect to login page after 2 seconds
+            setTimeout(() => {
+                router.push('/auth/login');
+            }, 2000);
         } catch (err) {
             const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred';
             setError(errorMessage);
