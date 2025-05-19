@@ -103,6 +103,13 @@ A full-stack warehouse management system built with .NET Core and Next.js, featu
    npm run dev
    ```
 
+   "Defaults user
+
+   "Email": "superadmin@example.com",
+   "Username": "superadmin",
+   "Password": "SuperAdminP@ssw0rd!"
+
+
 ## Project Structure
 
 ```
@@ -142,4 +149,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For support, email support@warehouse.com or create an issue in the repository. 
+For support, email ahmedafe1@gmail.com or create an issue in the repository. 
