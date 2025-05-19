@@ -109,6 +109,7 @@ A full-stack warehouse management system built with .NET Core and Next.js, featu
    "Username": "superadmin",
    "Password": "SuperAdminP@ssw0rd!"
 
+Important only SuperAdmin can access users management page
 
 ## Project Structure
 
