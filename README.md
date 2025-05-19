@@ -55,7 +55,7 @@ A full-stack warehouse management system built with .NET Core and Next.js, featu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Warehouse.git
+   git clone https://github.com/ahmedafe1/Warehouse.git
    cd Warehouse
    ```
 
@@ -127,7 +127,6 @@ Warehouse/
 
 ## API Documentation
 
-The API documentation is available at `/swagger` when running the backend server.
 
 ## Contributing
 
